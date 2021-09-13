@@ -1,16 +1,23 @@
 {
   "name": "test-package",
   "version": "1.0.0",
-  "description": "",
+  "description": "'testing 1-2-3'",
   "main": "index.js",
+  "dependencies": {
+    "test-package": "^0.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keithfrazier98/npm-test.git"
+    "url": "git+https://github.com/keithfrazier98/npm-test.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "keithers98",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithfrazier98/npm-test/issues"
+  },
+  "homepage": "https://github.com/keithfrazier98/npm-test#readme"
 }
